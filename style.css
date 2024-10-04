@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    background-color: #000000;
+    color: #EEEEEE;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color:#000000;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header h1 {
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #FFD700;
+}
+
+/* Hero Section */
+#hero {
+    background-color: #22A39F;
+    color: #fff;
+    text-align: center;
+    padding: 60px 0;
+}
+
+#hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.cta-btn {
+    background-color: #FFD700;
+    color: #000;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.cta-btn:hover {
+    background-color: #333;
+    color: #FFD700;
+}
+
+/* Image Section */
+/* Image Section */
+#photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #000000;
+}
+
+#photo img {
+    width: 300px; /* Fixed width for square */
+    height: 500px; /* Fixed height to match width for square */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    border-radius: 20px; /* Adjust the radius for rounded corners */
+    box-shadow: 0px 0px 0px rgba(243, 239, 239, 0.2); /* Add shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#photo img:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+    box-shadow: 0px 0px 0px rgb(86, 84, 84); /* Deepen shadow on hover */
+}
+
+
+.section {
+    padding: 60px 0;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.skills-list {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.skills-list li {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.skills-list li:hover {
+    background-color: rgb(255, 215, 0);
+}
+
+.project-item {
+    background-color: #22A39F;
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #EEEEEE;
+    color: #000;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    color: #333;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.social-icons a:hover {
+    color: #FFD700;
+}
